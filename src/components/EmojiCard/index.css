@@ -1,0 +1,28 @@
+.emoji-card-container {
+  list-style: none;
+  padding: 7px;
+  width: 33%;
+}
+
+.emoji-button {
+  border: none;
+  background-color: rgb(236, 228, 155);
+  border: solid white 1px;
+  border-radius: 20px;
+  padding: 15px;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.788) 0px 7px 29px 0px;
+}
+
+.emoji-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .emoji-card-container {
+    width: 25%;
+  }
+  .emoji-button {
+    padding: 20px;
+  }
+}
